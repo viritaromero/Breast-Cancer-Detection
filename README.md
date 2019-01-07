@@ -40,4 +40,4 @@ If you want to load the trained model, the code to download it, is in the notebo
 
 This project is updated to be compatible with PyTorch 0.4.0
 
-Read more about this project on my blog: https://medium.com/datadriveninvestor/detecting-breast-cancer-in-histopathological-images-using-deep-learning-a66552aef98
+Read more about this project here: https://medium.com/datadriveninvestor/detecting-breast-cancer-in-histopathological-images-using-deep-learning-a66552aef98
