@@ -36,7 +36,7 @@ The project is broken down into multiple steps:
 
 Everything you need to recreate this project is on the jupyter notebook. Everything was coded in Google Colab, because of its GPU. The dataset was uploaded to Google Drive, so you can download it directly (the code to download it is in the notebook). For more details, the notebook includes the instructions to follow.
 
-If you want to load the trained model, the code to download it, is in the notebook, in the "Load the checkpoint" section. I uploaded the model to my Google drive because it's bigger than 200MB.
+If you want to load the trained model, the code to download it, is in the notebook, in the "Load the checkpoint" section. The model was also uploaded to Google drive, so you can download it.
 
 This project is updated to be compatible with PyTorch 0.4.0
 
