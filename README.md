@@ -25,3 +25,20 @@ The dataset currently contains four histological distinct types of benign breast
 I only used 2 classes for this project: **Benign and Malignant**. We are going to determine if there exists cancer or not.
 
 ![alt text](https://www.researchgate.net/publication/319974998/figure/fig2/AS:541235083309056@1506051907719/a-c-Indicative-cases-of-H-E-breast-cancer-histological-images-from-our-dataset-image.png)
+
+
+# Instructions
+
+The project is broken down into multiple steps:
+
+    Load and preprocess the image dataset
+    Train the image classifier on your dataset
+    Use the trained classifier to predict image content
+
+Everything you need to recreate this project is on the jupyter notebook. Everything was coded in Google Colab, because of its GPU. I uploaded the dataset to Google Drive, so you can download it directly (the code to download it is in the notebook). For more details, the notebook includes the instructions to follow.
+
+If you want to load the trained model, the code to download it, is in the notebook, in the "Load the checkpoint" section. I uploaded the model to my Google drive because it's bigger than 200MB.
+
+This project is updated to be compatible with PyTorch 0.4.0
+
+Read more about this project on my blog: https://medium.com/datadriveninvestor/detecting-breast-cancer-in-histopathological-images-using-deep-learning-a66552aef98
