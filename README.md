@@ -9,10 +9,9 @@ Early detection can give patients more treatment options. In order to detect sig
 
 Architectural Distortion (AD) is a very subtle contraction of the breast tissue and may represent the earliest sign of cancer. Since it is very likely to be unnoticed by radiologists, several approaches have been proposed over the years but none using deep learning techniques. 
 
-I believe, AI will become a transformational force in healthcare and soon, computer vision models will be able to get a higher accuracy when researchers have the access to more medical imaging datasets.
+AI will become a transformational force in healthcare and soon, computer vision models will be able to get a higher accuracy when researchers have the access to more medical imaging datasets.
 
-I will develop a computer vision model to detect breast cancer in histopathological images. Two classes will be used in this project: **Benign and Malignant.**
-AI app to detect breast cancer in histopathological database
+We will develop a computer vision model to detect breast cancer in histopathological images. Two classes will be used in this project: **Benign and Malignant.**
 
 # Breast Cancer Histopathological Database (BreakHis)
 
@@ -22,7 +21,7 @@ The dataset BreaKHis is divided into two main groups: benign tumors and malignan
 
 The dataset currently contains four histological distinct types of benign breast tumors: adenosis (A), fibroadenoma (F), phyllodes tumor (PT), and tubular adenona (TA); and four malignant tumors (breast cancer): carcinoma (DC), lobular carcinoma (LC), mucinous carcinoma (MC) and papillary carcinoma (PC).
 
-I only used 2 classes for this project: **Benign and Malignant**. We are going to determine if there exists cancer or not.
+We are going to determine if there exists cancer or not.
 
 ![alt text](https://www.researchgate.net/publication/319974998/figure/fig2/AS:541235083309056@1506051907719/a-c-Indicative-cases-of-H-E-breast-cancer-histological-images-from-our-dataset-image.png)
 
@@ -35,7 +34,7 @@ The project is broken down into multiple steps:
     Train the image classifier on your dataset
     Use the trained classifier to predict image content
 
-Everything you need to recreate this project is on the jupyter notebook. Everything was coded in Google Colab, because of its GPU. I uploaded the dataset to Google Drive, so you can download it directly (the code to download it is in the notebook). For more details, the notebook includes the instructions to follow.
+Everything you need to recreate this project is on the jupyter notebook. Everything was coded in Google Colab, because of its GPU. The dataset was uploaded to Google Drive, so you can download it directly (the code to download it is in the notebook). For more details, the notebook includes the instructions to follow.
 
 If you want to load the trained model, the code to download it, is in the notebook, in the "Load the checkpoint" section. I uploaded the model to my Google drive because it's bigger than 200MB.
 
